@@ -1,0 +1,128 @@
+{
+    "root": {
+        "data": {
+            "id": "cd0jp617xe00",
+            "created": 1627046079154,
+            "text": "Interest in Vehicle Insurance"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cd0jpvxvoog0",
+                    "created": 1627046135549,
+                    "text": "Customer",
+                    "layout_mind_offset": {
+                        "x": -19,
+                        "y": -1
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd0jqwr62d40",
+                            "created": 1627046215684,
+                            "text": "Owns a Vehicle"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd0jq90cpb40",
+                            "created": 1627046163996,
+                            "text": "Region"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd0jqfcumrk0",
+                            "created": 1627046177813,
+                            "text": "Previous Accidents"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd0jrrijqko0",
+                            "created": 1627046282643,
+                            "text": "Income"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd0js28iskg0",
+                            "created": 1627046305981,
+                            "text": "Vehicle's Price"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd0jsnslft40",
+                            "created": 1627046352907,
+                            "text": "Age"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd0kxuedgzk0",
+                            "created": 1627049580216,
+                            "text": "Insured Time"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd0kauslfco0",
+                    "created": 1627047778700,
+                    "text": "Insurer",
+                    "layout_mind_offset": {
+                        "x": 27,
+                        "y": -3
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd0kc2o9stk0",
+                            "created": 1627047874217,
+                            "text": "Premium Price"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd0kchdjn9k0",
+                            "created": 1627047906220,
+                            "text": "Cross Sell Promotions"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd0keh4jpb40",
+                            "created": 1627048062404,
+                            "text": "Coverage Size"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd0ke7ba8tk0",
+                            "created": 1627048041044,
+                            "text": "Services Quality"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
