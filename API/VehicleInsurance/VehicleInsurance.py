@@ -35,9 +35,9 @@ class VehicleInsurance:
         vehicle_damage_dict = {'No' : 0, 'Yes' : 1}
         data['vehicle_damage'] = data['vehicle_damage'].map(vehicle_damage_dict)
 
-        data['annual_premium'] = self.annual_premium_scaler.transform(data['annual_premium'].values)
-        data['age'] = self.age_scaler.transform(data['age'].values)
-        data['vintage'] = self.vintage_scaler.transform(data['vintage'].values)
+        data['annual_premium'] = self.annual_premium_scaler.transform(data[['annual_premium']].values)
+        data['age'] = self.age_scaler.transform(data[['age']].values)
+        data['vintage'] = self.vintage_scaler.transform(data[['vintage']].values)
         
         data['region_code'] = data['region_code'].map(self.region_code_encoder)
         data['policy_sales_channel'] = data['policy_sales_channel'].map(self.policy_sales_channel_encoder)
