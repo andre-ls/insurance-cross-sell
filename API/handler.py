@@ -6,7 +6,7 @@ from VehicleInsurance.VehicleInsurance import VehicleInsurance
 import os
 
 
-model = pickle.load(open(r'Model\xgb_model.pkl','rb'))
+model = pickle.load(open('Model/xgb_model.pkl','rb'))
 
 app = Flask(__name__)
 
@@ -37,4 +37,4 @@ def health_insurance_predict():
 
 if __name__ == '__main__':
     port = os.environ.get('PORT',5000)
-    app.run(host = '127.0.0.1',port=port)
+    app.run(host = '0.0.0.0',port=port)

@@ -5,11 +5,11 @@ import pickle
 class VehicleInsurance:
 
     def __init__(self):
-        self.annual_premium_scaler =            pickle.load( open(r'Parameters\annual_premium_scaler.pkl','rb'))
-        self.age_scaler =                       pickle.load( open(r'Parameters\age_scaler.pkl','rb'))
-        self.vintage_scaler =                   pickle.load( open(r'Parameters\vintage_scaler.pkl','rb'))
-        self.region_code_encoder =              pickle.load( open(r'Parameters\region_code_encoder.pkl','rb'))
-        self.policy_sales_channel_encoder =     pickle.load( open(r'Parameters\policy_sales_channel_encoder.pkl','rb'))
+        self.annual_premium_scaler =            pickle.load( open('Parameters/annual_premium_scaler.pkl','rb'))
+        self.age_scaler =                       pickle.load( open('Parameters/age_scaler.pkl','rb'))
+        self.vintage_scaler =                   pickle.load( open('Parameters/vintage_scaler.pkl','rb'))
+        self.region_code_encoder =              pickle.load( open('Parameters/region_code_encoder.pkl','rb'))
+        self.policy_sales_channel_encoder =     pickle.load( open('Parameters/policy_sales_channel_encoder.pkl','rb'))
 
     def data_cleaning(self,data):
 
