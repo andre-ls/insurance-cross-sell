@@ -6,8 +6,7 @@ from VehicleInsurance.VehicleInsurance import VehicleInsurance
 import os
 
 
-path = r'C:\Users\andre_\OneDrive\GitHub\insurance-cross-sell'
-model = pickle.load(open(path + r'\Model\xgb_model.pkl','rb'))
+model = pickle.load(open(r'Model\xgb_model.pkl','rb'))
 
 app = Flask(__name__)
 
